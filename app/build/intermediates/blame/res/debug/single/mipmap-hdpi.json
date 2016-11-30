@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\multiplication.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\multiplication.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\acceuil2.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\acceuil2.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\acceuil.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\acceuil.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\reponse2.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\reponse2.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pendu1.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\pendu1.png"
+    },
+    {
+        "merged": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\carte1.png",
+        "source": "C:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\src\\main\\res\\mipmap-hdpi\\carte1.png"
+    }
+]

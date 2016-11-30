@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f2bd9ffb0b2142fdfcb9e3a30f70a5425e60fb51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a30fa27d184a215e8dcfbebd7972e8b96064162a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_b2b8023be74819c5851ac59605198385c2c92a0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_8225e52549e476272e0e62642d323c0d5ca2fa22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_dd1387ee02246be70d1012462de76f4c4c2f8fef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_f315400677c45af995da23a277ee1c3b949b876e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_dd66ae3175f6ad5d3b8cd6c89f54b5b254a643e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c1788dc9404836bef10f272f3c3c694701b63196\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_70b25796eef67406d85414cf1c20ed4f1490fcd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ff650537c27a47b2c815a037d1b3f9f100b8cc5">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_408478c11a08b9f746591037ae847a3f1f8e4143\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_d887f9122fe6d85e3d1de4d3ebc403752c73eea9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_28cacc81eee54b0a18aff0944cda6d9932820c16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_c49f23421f4ab6c1e9030c5bb5aa294c7ce83b4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c2d9c0a5e4acf429d49714ba5803b5c765aa28c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9664365d7aff44270c92149a4301305e6eacc7b">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b0c733497960de8f07adfaf2b493ba91cc71873b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6d95113a0cc014fe991fd3218303688f31084c3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Didier_Lechat\AndroidStudioProjects\Multiplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_965e45ed823d89c1180795546010e32cff5dc476\classes.dex" />
+    </item>
+
+</items>

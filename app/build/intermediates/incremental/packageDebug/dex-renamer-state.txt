@@ -1,0 +1,7 @@
+#Tue Nov 29 21:04:34 CET 2016
+base.0=C\:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b0c733497960de8f07adfaf2b493ba91cc71873b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_408478c11a08b9f746591037ae847a3f1f8e4143\\classes.dex
+base.1=C\:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_408478c11a08b9f746591037ae847a3f1f8e4143
+file.0=C\:\\Users\\Didier_Lechat\\AndroidStudioProjects\\Multiplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b0c733497960de8f07adfaf2b493ba91cc71873b\\classes.dex
