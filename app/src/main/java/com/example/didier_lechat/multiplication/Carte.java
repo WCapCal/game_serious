@@ -12,12 +12,13 @@ public class Carte {
     private String name_carte;
     private int reponse;
 
-
+    /* Construction de la carte */
     public Carte(){
         this.nb_carte = this.nbAleatoire();
         this.name_carte = this.formeAleatoire();
     }
 
+    /* Tirage aléatoirement de nombre entre 1 et 10 */
     private int nbAleatoire(){
         int nb_Aleatoire;
         int min = 1;
@@ -26,6 +27,7 @@ public class Carte {
         return nb_Aleatoire;
     }
 
+    /* Affichage de la forme aléatoirement */
     private String formeAleatoire(){
 
         String forme_1, forme_2, forme_3, forme_4;
@@ -49,15 +51,17 @@ public class Carte {
         return forme_aleatoire;
     }
 
+    /* Méthode qui réalise la multiplication des deux nombre des cartes */
     public int multiplication(int nb){
         int somme;
         somme = this.getNbCarte() * nb;
         return somme;
     }
+    /* Renvoie le nombre qui est a été aléatoirement tiré */
     public int getNbCarte(){
         return nb_carte;
     }
-
+    /* Renvoie le nom qui est a été aléatoirement tiré */
     public String getNameCarte(){
         return name_carte;
     }

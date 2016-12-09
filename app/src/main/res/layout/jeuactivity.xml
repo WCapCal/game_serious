@@ -8,132 +8,137 @@
     android:scrollbarDefaultDelayBeforeFade="@android:integer/config_shortAnimTime"
     android:scrollbarFadeDuration="?android:attr/scrollbarFadeDuration">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/carte1"
-        android:id="@+id/carte_1"
-        android:layout_marginStart="70dp"
-        android:layout_below="@+id/home"
-        android:layout_toEndOf="@+id/carte_2" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/carte1"
-        android:id="@+id/carte_2"
-        android:layout_below="@+id/home"
-        android:layout_toStartOf="@+id/imageView3"
-        android:layout_marginEnd="35dp" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/home"
-        android:background="@drawable/ic_home_black_18dp"
-        android:layout_alignStart="@+id/rep_1"
-        android:layout_toStartOf="@+id/carte_2"
-        android:layout_alignEnd="@+id/rep_1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/carte_coeur"
+            android:id="@+id/carteImage1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="59dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/multiplication"
-        android:id="@+id/imageView3"
-        android:layout_alignTop="@+id/nb2"
-        android:layout_alignEnd="@+id/answer2"
-        android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/carte_carreau"
+            android:id="@+id/carteImage2"
+            android:layout_marginTop="59dp"
+            android:layout_marginLeft="255dp" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/answer1"
-        android:background="@mipmap/reponse2"
-        android:layout_below="@+id/carte_2"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="13dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/multiplication"
+            android:id="@+id/croixMultiplication"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="190dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nb2"
-        android:textSize="33sp"
-        android:hint="10"
-        android:layout_alignBaseline="@+id/nb1"
-        android:layout_alignBottom="@+id/nb1"
-        android:layout_alignStart="@+id/carte_1"
-        android:layout_marginStart="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/number1"
+            android:hint="10"
+            android:textSize="33dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="95dp"
+            android:textColorHint="@android:color/background_light"
+            android:textColor="@android:color/background_light" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nb1"
-        android:textSize="33sp"
-        android:hint="10"
-        android:layout_marginTop="22dp"
-        android:layout_below="@+id/home"
-        android:layout_alignStart="@+id/carte_2"
-        android:layout_marginStart="11dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/number2"
+            android:textSize="33dp"
+            android:hint="10"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="285dp"
+            android:textColorHint="@android:color/background_light"
+            android:textColor="@android:color/background_light" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/Widget.AppCompat.ImageButton"
-        android:background="@mipmap/reponse2"
-        android:layout_alignTop="@+id/answer1"
-        android:layout_toEndOf="@+id/answer2"
-        android:id="@+id/answer3" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:id="@+id/reponse1"
+            android:layout_marginTop="205dp"
+            android:background="@mipmap/reponse2" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/answer2"
-        android:background="@mipmap/reponse2"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/answer1" />
+        <ImageView
+            android:layout_width="226dp"
+            android:layout_height="188dp"
+            app:srcCompat="@mipmap/pendu2"
+            android:id="@+id/pendu"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="40dp" />
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_home_black_18dp"
+            android:id="@+id/home"
+            android:scaleX="2.0"
+            android:scaleY="2.0"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_home_black_18dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rep_2"
-        android:textSize="30sp"
-        android:hint="100"
-        android:layout_marginStart="17dp"
-        android:layout_alignTop="@+id/answer2"
-        android:layout_toEndOf="@+id/nb1"
-        android:layout_marginTop="29dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rep1"
+            android:hint="10"
+            android:layout_marginTop="230dp"
+            android:textColorHint="@android:color/background_dark"
+            android:layout_marginLeft="30dp"
+            android:textSize="33dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rep_3"
-        android:textSize="30sp"
-        android:hint="100"
-        android:layout_alignBottom="@+id/answer3"
-        android:layout_alignEnd="@+id/nb2"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="19dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reponse2"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="90dp"
+            android:background="@mipmap/reponse2" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rep_1"
-        android:textSize="30sp"
-        android:hint="100"
-        android:layout_marginEnd="21dp"
-        android:layout_alignBottom="@+id/rep_3"
-        android:layout_toStartOf="@+id/answer2"
-        android:layout_marginBottom="11dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="120dp"
+            android:id="@+id/rep2"
+            android:hint="10"
+            android:textColorHint="@android:color/background_dark"
+            android:layout_marginTop="210dp"
+            android:textSize="37dp"
+            android:layout_marginLeft="10dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/pendu1"
-        android:id="@+id/pendu"
-        android:layout_marginEnd="25dp"
-        android:layout_above="@+id/rep_3"
-        android:layout_alignParentEnd="true" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:id="@+id/reponse3"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="210dp"
+            android:background="@mipmap/reponse2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rep3"
+            android:hint="10"
+            android:textSize="33dp"
+            android:textColorHint="@android:color/background_dark"
+            android:layout_marginTop="235dp"
+            android:layout_marginLeft="205dp" />
+
+    </FrameLayout>
+
 
 
 </RelativeLayout>

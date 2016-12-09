@@ -29,15 +29,14 @@ public class JeuActivity extends AppCompatActivity{
     private int nombre_carte_1, nombre_carte_2;
     // Affichage de nombre aléatoirement des valeurs pour réponse à la multiplication
     private int int_reponse_aleatoire_1, int_reponse_aleatoire_2, int_reponse_multiplication;
-
     // EDIT TEXT //
     TextView reponse_1, reponse_2, reponse_3;
-
     // Nombre d'erreur pour affichage pendu //
     private int nb_error = -1;
-
     // BOOlEAN qui permet de savoir si erreur ou pas
     private boolean error = false;
+
+    private String name_carte1, name_carte2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,16 +44,17 @@ public class JeuActivity extends AppCompatActivity{
         setContentView(R.layout.jeuactivity);
 
         // INITIALISATION DES TEXTVIEW//
-        reponse_1 = (TextView) findViewById(R.id.rep_1);
-        reponse_2 = (TextView) findViewById(R.id.rep_2);
-        reponse_3 = (TextView) findViewById(R.id.rep_3);
+        reponse_1 = (TextView) findViewById(R.id.rep1);
+        reponse_2 = (TextView) findViewById(R.id.rep2);
+        reponse_3 = (TextView) findViewById(R.id.rep3);
         // FIN INITIALISATION //
 
         // Affichage des valeurs dans les cartes //
         createGame();
 
+
         // Debut Réaction bouton retour //
-        Button previous = (Button) findViewById(R.id.home);
+        ImageButton previous = (ImageButton) findViewById(R.id.home);
         previous.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -64,7 +64,7 @@ public class JeuActivity extends AppCompatActivity{
         });
         // Fin Réaction bouton retour //*/
         // DEBUT REACTION BOUTON IMAGE //
-        ImageButton rep1 = (ImageButton) findViewById(R.id.answer1);
+        ImageButton rep1 = (ImageButton) findViewById(R.id.reponse1);
         rep1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,13 +82,14 @@ public class JeuActivity extends AppCompatActivity{
                     error = true;
                     // Affichage du pendu à chaque erreur //
                     paintPendu();
+                    // Permet de créer une nouvelle multiplication //
                     createGame();
                 }
 
             }
         });
-        error = false;
-        ImageButton rep2 = (ImageButton) findViewById(R.id.answer2);
+
+        ImageButton rep2 = (ImageButton) findViewById(R.id.reponse2);
         rep2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -110,8 +111,8 @@ public class JeuActivity extends AppCompatActivity{
 
             }
         });
-        error = false;
-        ImageButton rep3 = (ImageButton) findViewById(R.id.answer3);
+
+        ImageButton rep3 = (ImageButton) findViewById(R.id.reponse3);
         rep3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,10 +133,13 @@ public class JeuActivity extends AppCompatActivity{
                 }
             }
         });
-        error = false;
+
         // FIN REACTION BOUTON IMAGE //
     }
 
+    /* Gestion de l'affichage des numéros qui sont aléatoirement tiré entre 1 et 10,
+       des différentes tables
+     */
     public void nbAleatoire(){
         int nb_Aleatoire_rep_1 = (int) (Math.random()*3+1);
         int nb_Aleatoire_rep_2 = (int) (Math.random()*3+1);
@@ -213,17 +217,25 @@ public class JeuActivity extends AppCompatActivity{
 
     }
 
+    /* Initialisation de la partie */
     public void createGame(){
         carte_1 = new Carte();
-        TextView nb_affichage_1 = (TextView) findViewById(R.id.nb1);
+        TextView nb_affichage_1 = (TextView) findViewById(R.id.number1);
         nombre_carte_1= carte_1.getNbCarte();
         nb_affichage_1.setText(Integer.toString(nombre_carte_1));
 
+        name_carte1 = carte_1.getNameCarte();
+
+
         // Affichage pour la deuxième carte //
         carte_2 = new Carte();
-        TextView nb_affichage_2 = (TextView) findViewById(R.id.nb2);
+        TextView nb_affichage_2 = (TextView) findViewById(R.id.number2);
         nombre_carte_2 = carte_2.getNbCarte();
         nb_affichage_2.setText(Integer.toString(nombre_carte_2));
+
+        name_carte2 = carte_2.getNameCarte();
+
+        affichageCarte();
 
         // PARTIE REPONSE DU JEU //
         rep_1 = new Reponse();
@@ -235,6 +247,7 @@ public class JeuActivity extends AppCompatActivity{
         nbAleatoire();
     }
 
+    /* Méthode qui permet de dessiner le pendu en cas de réponse fausse */
     public void paintPendu(){
         int NB_ERROR_MAX = 9;
         ArrayList<Integer> tab_view_pendu = new ArrayList<Integer>();
@@ -270,11 +283,40 @@ public class JeuActivity extends AppCompatActivity{
 
     }
 
+    /* Méthode qui renvoie si l'utlisateur a eu une mauvaise réponse */
     public boolean getError(){
         return error;
     }
 
+    /* Permet de savoir le nombre error */
     public int getNb_error(){
         return nb_error;
     }
+
+    /* Permet d'afficher la carte par rapport au nom qui est tiré aléatoirement */
+    public void affichageCarte(){
+
+        ImageView carte1 = (ImageView) findViewById(R.id.carteImage1);
+        ImageView carte2 = (ImageView) findViewById(R.id.carteImage2);
+
+        if(name_carte1.equals("carreau")){
+            carte1.setImageResource(R.mipmap.carte_carreau);
+        } else if(name_carte1.equals("coeur")) {
+            carte1.setImageResource(R.mipmap.carte_coeur);
+        }else if(name_carte1.equals("pique")) {
+            carte1.setImageResource(R.mipmap.carte_pique);
+        }else if(name_carte1.equals("treffle")) {
+            carte1.setImageResource(R.mipmap.carte_treffle);
+        }
+
+        if(name_carte2.equals("carreau")){
+            carte2.setImageResource(R.mipmap.carte_carreau);
+        } else if(name_carte2.equals("coeur")) {
+            carte2.setImageResource(R.mipmap.carte_coeur);
+        }else if(name_carte2.equals("pique")) {
+            carte2.setImageResource(R.mipmap.carte_pique);
+        }else if(name_carte2.equals("treffle")) {
+            carte2.setImageResource(R.mipmap.carte_treffle);
+        }
+    } // Methode à revoir //
 }
